@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+  background-color: $secondary-color;
+  color: $font-color;
+  text-align: center;
+  p {
+    padding: 20px 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    span {
+      font-weight: 900;
+    }
+  }
+}

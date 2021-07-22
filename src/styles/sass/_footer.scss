@@ -1,0 +1,13 @@
+footer {
+  background: linear-gradient(227deg, $primary-color, $primary-color-dark);
+  color: $font-color;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  padding: 20px 0;
+  a {
+    font-weight: bolder;
+    color: inherit;
+  }
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: #028090;
+  color: white;
+  text-align: center;
+}
+header p {
+  padding: 20px 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+header p span {
+  font-weight: 900;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  background: linear-gradient(227deg, #02c39a, #00a896);
+  color: white;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  padding: 20px 0;
+}
+footer a {
+  font-weight: bolder;
+  color: inherit;
+}
